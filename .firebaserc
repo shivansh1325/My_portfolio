@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "pryzmity-d5392"
+  },
+  "targets": {
+    "pryzmity-d5392": {
+      "hosting": {
+        "shivansh": [
+          "shivansh"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
