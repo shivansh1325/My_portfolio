@@ -93,3 +93,18 @@
     });
 })(jQuery);
 
+
+
+// chatbot js
+
+document.getElementById('chatbot-btn').addEventListener('click', function () {
+    document.getElementById('chatbot-popup').style.display = 'block';
+});
+
+document.getElementById('close-chatbot-btn').addEventListener('click', function () {
+    document.getElementById('chatbot-popup').style.display = 'none';
+});
+
+document.getElementById('scroll-top-btn').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
